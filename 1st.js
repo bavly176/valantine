@@ -27,7 +27,7 @@ function handleNoClick() {
     yesButton.style.fontSize = `${currentSize * 1.5}px`;
 
 noclickcount++;
-if (noclickcount >= 10) {
+if (noclickcount >= 15) {
     noButton.style.display = "none";
 }
 }
