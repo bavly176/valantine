@@ -1,0 +1,32 @@
+/* تنسيق عام للصفحة */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #f8d7da, #fce4ec);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* تصميم المحتوى */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* تنسيق العنوان */
+h1 {
+    color: #c2185b;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* تنسيق الصورة */
+.hug-img {
+    width: 250px;
+    margin-top: 20px;
+}

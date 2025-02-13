@@ -1,0 +1,63 @@
+/* تنسيق عام للصفحة */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #f8d7da, #fce4ec); /* لون الخلفية */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* تصميم المحتوى */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* تنسيق العنوان */
+h1 {
+    color: #c2185b;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.yes-button, .no-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.yes-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.no-button {
+    background-color: #d32f2f;
+    color: white;
+}
+
+.yes-button:hover {
+    background-color: #388E3C;
+}
+
+.no-button:hover {
+    background-color: #b71c1c;
+}
+
+/* تنسيق الصورة */
+.cat-img {
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 50px; 
+}
