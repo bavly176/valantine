@@ -12,6 +12,7 @@ const messages = [
 ];
 
 let messageIndex = 0;
+let noclickcount =0;
 
 function handleNoClick() {
     const noButton = document.querySelector(".no-button");
@@ -24,8 +25,12 @@ function handleNoClick() {
     // تكبير زر "Yes" فقط باستخدام backticks
     const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
     yesButton.style.fontSize = `${currentSize * 1.5}px`;
-}
 
+noclickcount++;
+if (noclickcount >= 10) {
+    noButton.style.display = "none";
+}
+}
 function handleYesClick() {
     window.location.href = "y.html";
 }
